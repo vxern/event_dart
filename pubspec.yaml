@@ -1,7 +1,7 @@
-name: eventus
-description: Eventus is a professional implementation of the NodeJS EventEmitter for Dart.
+name: event_dart
+description: Event_dart is a professional implementation of the NodeJS EventEmitter for Dart.
 version: 1.0.0
-homepage: http://devongalat.github.io/eventus/
+homepage: http://devongalat.github.io/event_dart/
 
 environment:
   sdk: '>=2.8.1 <3.0.0'

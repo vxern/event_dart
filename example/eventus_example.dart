@@ -1,4 +1,4 @@
-import 'package:eventus/eventus.dart';
+import 'package:event_dart/event_dart.dart';
 
 void main() {
   EventEmitter eventEmitter;
