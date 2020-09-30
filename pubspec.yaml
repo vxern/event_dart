@@ -1,5 +1,5 @@
-name: EventEmitter
-description: EventEmitter is a professional implementation of the NodeJS EventEmitter for Dart.
+name: event_emitter
+description: event_emitter is a professional implementation of the NodeJS EventEmitter for Dart.
 version: 1.0.0
 author: Gil Mendes <gilmendes@designture.net>
 homepage: http://devongalat.github.io/event_emitter/
