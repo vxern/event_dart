@@ -1,14 +1,14 @@
-# EventEmitter
+# Eventus
 
 THIS LIBRARY WAS ORIGINALLY CREATED BY DESIGNTURE.
 
 This project introduces a class to be used as a mixin to allow a class to act as an event emitter
 to which others can subscribe.
 Several event-related projects existed, but none of them offered the flexibility and simplicity that we wanted,
-so we created EventEmitter.
+so we created Eventus.
 
-Eventus is a professional implementation of EventEmitter for Dart. This is based on the Node.js
-[EventEmitter][node_event_emitter] enhanced with Dart super power!
+Eventus is a professional implementation of Eventus for Dart. This is based on the Node.js
+[Eventus][node_event_emitter] enhanced with Dart super power!
 
 ## Installation
 
@@ -75,4 +75,4 @@ emitter.clearListeners();
 Please file feature requests and bugs at the [issue tracker][tracker].
 
 [tracker]: http://example.com/issues/replaceme
-[node_event_emitter]: https://nodejs.org/api/events.html#events_class_events_eventemitter
+[node_event_emitter]: https://nodejs.org/api/events.html#events_class_events_Eventus
