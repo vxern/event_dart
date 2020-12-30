@@ -1,3 +1,7 @@
 ## 1.0.0
 
-- Initial version, created by Stagehand
+- Port from dart 1.0 to 2.0
+
+## 2.0.0
+
+- Class into mixin

@@ -1,4 +1,4 @@
-abstract class EventEmitter {
+mixin EventEmitter {
   /// Mapping of events to a list of events handlers.
   var events = <String, List<Function>>{};
 

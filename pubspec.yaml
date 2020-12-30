@@ -1,6 +1,6 @@
 name: event_dart
 description: Event_dart is a professional implementation of the NodeJS EventEmitter for Dart.
-version: 1.0.0
+version: 2.0.0
 homepage: http://devongalat.github.io/event_dart/
 
 environment:
