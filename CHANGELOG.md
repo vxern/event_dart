@@ -1,7 +1,11 @@
 ## 1.0.0
 
-- Port from dart 1.0 to 2.0
+- Ported the `eventus` project from Dart v1 to v2.
 
-## 2.0.0
+## 1.0.1
 
-- Class into mixin
+- Converted the extendable `EventEmitter` class to an assignable mixin. 
+
+## 1.1.0
+
+- Added null-safety and rewrote the implementation of EventEmitter
