@@ -1,5 +1,5 @@
 name: event_dart
-version: 1.1.0
+version: 2.0.1
 description: Simple, complete and intuitive event emitter written in Dart 
 author: Dorian Oszczęda <vxern@wordcollector.co.uk>
 homepage: https://github.com/vxern/event_dart

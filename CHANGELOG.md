@@ -6,6 +6,6 @@
 
 - Converted the extendable `EventEmitter` class to an assignable mixin. 
 
-## 1.1.0
+## 2.0.1
 
 - Added null-safety and rewrote the implementation of EventEmitter
