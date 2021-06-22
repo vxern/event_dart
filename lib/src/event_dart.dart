@@ -29,9 +29,8 @@ mixin EventEmitter {
     }
   }
 
-  /// This function binds the `handler` as listener to the first
-  /// occurrence of the `event`. When `handler` is called once,
-  /// it is removed.
+  /// Bind the `handler` as listener to a single
+  /// occurrence of the `event`.
   void once(String event, Function handler) {
     if (singleEvents.containsKey(event)) {
       singleEvents[event]!.add(handler);
@@ -40,7 +39,13 @@ mixin EventEmitter {
     }
   }
 
-  /// This function attempt to remove all handlers from the `event`.
+  /// Remove all handlers from an event
+  void clearListener(String event) {
+    recurrentEvents.remove(event);
+    singleEvents.remove(event);
+  }
+
+  /// Remove all events and their handlers
   void clearListeners() {
     recurrentEvents.clear();
     singleEvents.clear();

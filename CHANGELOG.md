@@ -8,4 +8,8 @@
 
 ## 2.0.1
 
-- Added null-safety and rewrote the implementation of EventEmitter
+- Added null-safety and rewrote the implementation of EventEmitter.
+
+## 2.0.2
+
+- `clearListener` function to stop a single event being listened for.
