@@ -1,4 +1,4 @@
-# event_dart - Create an event emitter and listen for events
+# Create an event emitter and listen for events
 
 ## Usage
 
