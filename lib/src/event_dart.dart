@@ -6,7 +6,7 @@ mixin EventEmitter {
   final Map<String, List<Function>> singleEvents = {};
 
   /// This function triggers all the handlers currently listening
-  /// to `event` and passes them `data`
+  /// to `event` and passes them `arguments`
   void emit(String event, [List arguments = const []]) {
     if (!singleEvents.containsKey(event)) {
       if (recurrentEvents.containsKey(event)) {
